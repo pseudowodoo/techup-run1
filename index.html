@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/pico.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="
+./js/jquery.min.js
+"></script>
+    <script src="./js/index.js"></script>
+    <script
+      async
+      src="https://eye.pantrybooking.com/script.js"
+      data-website-id="01506393-0524-436f-b915-22169aec9c8b"
+    ></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-C54E2P822H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-C54E2P822H");
+    </script>
+    <title>🚀 TechUp '23</title>
+    <meta
+      name="description"
+      content="Flashback to the TechUp projects we built together 🚀🎉"
+    />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./img/techup-logo.png"
+        alt="Logo of a boy wearing glasses with the words TechUp below"
+        width="200px"
+      />
+      <h6>
+        <box-icon
+          name="heart"
+          type="solid"
+          animation="tada"
+          color="#ff0000"
+        ></box-icon>
+        <mark>we built this together</mark>
+        <box-icon
+          name="heart"
+          type="solid"
+          animation="tada"
+          color="#ff0000"
+        ></box-icon>
+      </h6>
+    </header>
+    <main class="container">
+      <div class="row">
+        <div
+          class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4"
+        >
+          <select id="techup-categories" required>
+            <option value="all" data-umami-event="all" selected>
+              All Categories
+            </option>
+            <option value="anti-scam" data-umami-event="anti-scam">
+              Anti-Scam
+            </option>
+            <option value="children" data-umami-event="children">
+              Children
+            </option>
+            <option value="environment" data-umami-event="environment">
+              Environment
+            </option>
+            <option
+              value="financial-assistance"
+              data-umami-event="financial-assistance"
+            >
+              Financial Assistance
+            </option>
+            <option
+              value="health-mental-health"
+              data-umami-event="health-mental-health"
+            >
+              Health & Mental Health
+            </option>
+            <option
+              value="location-search-recommenders"
+              data-umami-event="location-search-recommenders"
+            >
+              Location Search & Recommenders
+            </option>
+            <option
+              value="personal-finance"
+              data-umami-event="personal-finance"
+            >
+              Personal Finance
+            </option>
+            <option
+              value="personal-hobbies"
+              data-umami-event="personal-hobbies"
+            >
+              Personal Hobbies
+            </option>
+            <option value="productivity" data-umami-event="productivity">
+              Productivity
+            </option>
+            <option
+              value="training-hr-career-support"
+              data-umami-event="training-hr-career-support"
+            >
+              Training, HR & Career Support
+            </option>
+            <option value="wog-problems" data-umami-event="wog-problems">
+              WoG Problems
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="row" id="techup-projects"></div>
+    </main>
+    <footer>
+      <small>humility. hunger. hope.</small>
+    </footer>
+  </body>
+</html>
